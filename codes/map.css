@@ -1,0 +1,19 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,194,186,1) 78%, rgba(0,212,255,1) 100%);
+}
+.mapdiv{
+    width: 50%;
+    margin: auto;
+}
+.mapdiv path{
+    fill: grey;
+    stroke: white;
+    stroke-width:2px;
+    transition: fill 0.3s;
+  
+}
+.mapdiv :hover{
+    fill:rgb(85, 1, 1)
+    
+}
